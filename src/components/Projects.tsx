@@ -107,7 +107,7 @@ export default function Projects() {
   };
 
   return (
-    <section id="projects" className="py-10 px-8 md:px-16">
+    <section id="projects" className="py-20 px-8 md:px-16">
       {/* Container for title, tabs and grid */}
       <div className="projects-container">
         {/* Title */}

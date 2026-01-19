@@ -52,7 +52,7 @@ export default function Experience() {
   const [selectedJob, setSelectedJob] = useState(experiences[0]);
 
   return (
-    <section id="experience" className="py-10 px-8 md:px-16">
+    <section id="experience" className="py-20 px-8 md:px-16">
       {/* Title */}
       <h2 className="text-white text-4xl font-bold mb-12">
         Experience
