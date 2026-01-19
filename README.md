@@ -34,3 +34,16 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Deploy to Azure (Free)
+
+This project is configured as a static export (`output: "export"`) and builds into the `out/` folder, which is ideal for **Azure Static Web Apps (Free plan)**.
+
+1. Push your repo to GitHub.
+2. In the Azure Portal, create a **Static Web App**.
+3. Connect it to your GitHub repo/branch.
+4. Set build settings:
+   - **App location**: `/`
+   - **Output location**: `out`
+   - **API location**: (leave empty)
+5. Azure will create a GitHub Actions workflow and deploy automatically on each push.
