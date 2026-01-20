@@ -60,9 +60,8 @@ export default function Banner() {
 
           {/* Short description */}
           <p className="text-gray-400 text-lg mb-8">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry&apos;s standard dummy text
-            ever since the 1500s.
+            I’m a recent CSE graduate with a strong interest in AI/ML, web, and Android development.
+            My strength lies in converting ideas into practical, real-world solutions that addresses user needs.
           </p>
 
           {/* Call-to-action button */}
