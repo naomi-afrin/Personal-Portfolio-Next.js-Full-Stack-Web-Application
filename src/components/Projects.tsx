@@ -6,7 +6,8 @@ const tabs = [
   { key: "first", label: "Web Development", position: "first" },
   { key: "second", label: "Android Development", position: "middle" },
   { key: "third", label: "ML/AI", position: "middle" },
-{ key: "fourth", label: "Games", position: "last" },
+  { key: "fourth", label: "Hardware Projects", position: "middle" },
+{ key: "fifth", label: "Games", position: "last" },
 ];
 
 const projects = {
@@ -82,19 +83,50 @@ const projects = {
   fourth: [
     { 
       id: 10, 
+      title: "Sound-driven autonomous car", 
+      image: "/img/projects/hardware projects/Sound_driven_car.gif",
+      description: "",
+      link: "https://drive.google.com/file/d/1I79ZMRhuzK4pSA432ISdnGPiusLZPib3/view?usp=sharing"
+    },
+    { 
+      id: 11, 
+      title: "Attendence system", 
+      image: "/img/projects/hardware projects/Attendence system gif.gif",
+      description: "",
+      link: "https://drive.google.com/file/d/1SasNwqCd34OpdTayXJbOWCZCTzy8LjoC/view?usp=sharing"
+    },
+    { 
+      id: 12, 
+      title: "Sound localization system", 
+      image: "/img/projects/hardware projects/Sound localization and classification system gif.gif",
+      description: "",
+      link: "https://drive.google.com/file/d/1OFOF1djKFo2rybSjP3BNcOEWAjatT6Gc/view?usp=sharing"
+    },
+    { 
+      id: 13, 
+      title: "Traffic light system", 
+      image: "/img/projects/hardware projects/Traffic light system gif.gif",
+      description: "",
+      link: "https://drive.google.com/file/d/14KlugGswEM6sPJWlluxn0JOGIxd-7U84/view?usp=sharing"
+    },
+  ],
+  fifth: [
+    { 
+      id: 12, 
       title: "Snake Game", 
       image: "/img/projects/snake_game.gif",
       description: "Created the Snake game in Pygame, featuring moving food, growing snake length, score tracking, sound effects, and a restartable game-over screen.",
       link: "https://github.com/naomi-afrin/Snake-Game/tree/main"
     },
     { 
-      id: 11, 
+      id: 13, 
       title: "Pac-Man Game", 
       image: "/img/projects/pac-man_game.gif",
       description: "Recreated the classic Pac-Man game using Python. Players control Pac-Man through a maze, eat dots, collect power-ups, and avoid ghosts.",
       link: "https://github.com/naomi-afrin/Pac-man/tree/main"
     },
   ],
+  
 };
 
 export default function Projects() {
