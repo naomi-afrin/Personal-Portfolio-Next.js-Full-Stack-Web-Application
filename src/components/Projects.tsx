@@ -49,20 +49,20 @@ const projects = {
       description: "A modern To-Do List app built with Jetpack Compose, featuring dark mode, task prioritization, and smooth animations.",
       link: "https://github.com/naomi-afrin/ToDoList-App-JetpackCompose/tree/main"
     },
-    { 
-      id: 6, 
-      title: "Unit Converter App", 
-      image: "/img/projects/unit_converter.gif",
-      description: "A simple Android unit converter app that converts kilograms to pounds and features a clean, easy-to-use interface built with Material Design.",
-      link: "https://github.com/naomi-afrin/unitConverter/tree/master"
-    },
-    { 
-      id: 7, 
-      title: "Click Counter App", 
-      image: "/img/projects/click_counter.gif",
-      description: "My first Android app, built with Kotlin, that increases a counter each time a button is clicked and updates the value instantly on the screen.",
-      link: "https://github.com/naomi-afrin/clickCounter"
-    },
+    // { 
+    //   id: 6, 
+    //   title: "Unit Converter App", 
+    //   image: "/img/projects/unit_converter.gif",
+    //   description: "A simple Android unit converter app that converts kilograms to pounds and features a clean, easy-to-use interface built with Material Design.",
+    //   link: "https://github.com/naomi-afrin/unitConverter/tree/master"
+    // },
+    // { 
+    //   id: 7, 
+    //   title: "Click Counter App", 
+    //   image: "/img/projects/click_counter.gif",
+    //   description: "My first Android app, built with Kotlin, that increases a counter each time a button is clicked and updates the value instantly on the screen.",
+    //   link: "https://github.com/naomi-afrin/clickCounter"
+    // },
   ],
   third: [
     { 

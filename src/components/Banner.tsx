@@ -64,11 +64,6 @@ export default function Banner() {
             My strength lies in converting ideas into practical, real-world solutions that addresses user needs.
           </p>
 
-          {/* Call-to-action button */}
-          <button className="text-white flex items-center gap-2 hover:text-purple-400 transition text-lg">
-            Let&apos;s Connect
-            <span className="text-2xl">→</span>
-          </button>
         </div>
 
         {/* Right side - Profile image */}

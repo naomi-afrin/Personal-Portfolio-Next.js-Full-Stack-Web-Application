@@ -42,7 +42,8 @@ const experiences = [
     image: "",
     bullets: [
       "Maintained and updated the student branch website to ensure reliability and usability.",
-      "Improved SEO performance",
+      // "Improved SEO performance",
+      "Modified website layout and design for better user experience using HTML, CSS", 
       "Communicated with website hosting providers to ensure continuous uptime and timely payment of hosting fees."
     ],
   },

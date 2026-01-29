@@ -1,7 +1,7 @@
 const skills = [
   {
     category: "Web",
-    items: ["TypeScript", "React", "Next.js", "Tailwind CSS", "Node.js"],
+    items: ["JavaScript", "TypeScript", "Node.js", "Next.js", "React", "HTML","Tailwind CSS"],
   },
   {
     category: "Android",
@@ -9,11 +9,11 @@ const skills = [
   },
   {
     category: "ML/AI",
-    items: ["Python", "PyTorch", "TensorFlow", "Computer Vision", "NLP"],
+    items: ["Python", "PyTorch", "TensorFlow", "Edge computing"],
   },
   {
     category: "Tools",
-    items: ["Git", "Linux", "Docker", "Postman"],
+    items: ["Git", "Linux", "Postman"],
   },
 ] as const;
 
